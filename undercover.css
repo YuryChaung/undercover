@@ -1,27 +1,62 @@
-html{
+html {
 	width: 100%;
 	height: 100%;
 }
-body{
+body {
 	width: 100%;
 	height:100%;
-	margin: 10px 30px 0px 30px;
-	
-	
+	margin: 0;
 }
-.playersP{
-			display: inline-block;
-			padding: 10px;
-		}
-#picChoose img{
-	height: 432px;
-	width: 264px;
+.playersP {
+	display: inline-block;
 	padding: 10px;
 }
-
-#infoInputAll{
-	position: fixed;
-	width: 500px;
-	height: 500px ;
-	background-color: "red";
+.playerPic {
+	width: 18%;
+	padding: 10px;
+	border-radius: 5%;
 }
+#picChoose {
+	width: 100%;
+	overflow-y: auto;
+}
+
+#infoInputAll {
+	position: absolute;
+	top:0px;
+	width: 100%;
+	height: 100%;
+/**	padding-bottom: 140%;  **/
+	background:rgba(0,0,0,0.55);
+}
+#infoInputFrame {
+	display: inline-block;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding:  1.5rem;
+	background:rgba(255,255,255,0.9); 
+}
+#infoDiv {
+	float: left;
+	margin: 5%;
+	font-size: 25px;
+}
+#nameBar {
+	font-size: 2rem;
+
+}
+#choosePic {
+	float: left;
+}
+#closeButton {
+	float: right;
+	width: 20px;
+	height: 10px;
+}
+#okButton {
+	float: right;
+	bottom: 0;
+}
+
